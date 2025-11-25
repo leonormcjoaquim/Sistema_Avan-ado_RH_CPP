@@ -22,7 +22,6 @@ void mostrarMenu()
     std::cout << "10. Estatisticas por departamento\n";
     std::cout << "11. Dashboard resumido\n";
     std::cout << "0. Sair\n";
-    std::cout << "Escolha uma opcao: ";
 }
 
 //Submenu Notas

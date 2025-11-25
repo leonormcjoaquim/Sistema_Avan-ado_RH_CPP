@@ -13,9 +13,9 @@ void menuPrincipal(std::vector<Colaborador> &listaColaboradores)
     {
         limparEcra();
         mostrarMenu();
-
-         while (true)
+        while (true)
         {
+            std::cout << "Escolha uma opcao: ";
             std::cin >> opcao;
 
             if (!std::cin.fail())
