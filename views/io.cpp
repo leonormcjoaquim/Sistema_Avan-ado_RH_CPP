@@ -1,6 +1,10 @@
+//===================================================================================
+// Ficheiro: io.cpp
+// Objetivo: Implementação das funções de entrada e saída, incluindo menus e leitura 
+// de dados
+//===================================================================================
+
 #include "io.h"
-#include "../models/calendario.h"
-#include <limits>
 
 // Mostra o menu principal
 void mostrarMenu()

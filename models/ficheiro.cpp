@@ -5,10 +5,6 @@
 //===================================================================================
 
 #include "ficheiro.h"
-#include "cifra.h"
-#include <fstream>
-#include <sstream>
-#include "colaborador.h"
 
 // Guarda os colaboradores e as marcações num ficheiro CSV quando o programa termina
 bool guardarCSV(const std::vector<Colaborador> &lista)

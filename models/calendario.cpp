@@ -1,8 +1,7 @@
-/*
-    Este ficheiro trata puramente da lógica de calendário, 
-    como calcular se é fim de semana ou se um ano é bissexto
-*/
-#include <chrono>
+//===================================================================================
+// Ficheiro: calendario.cpp
+// Objetivo: Trata de toda a lógica relacionada com datas no calendário
+//===================================================================================
 #include "calendario.h"
 
 // Para ver se o ano é bissexto

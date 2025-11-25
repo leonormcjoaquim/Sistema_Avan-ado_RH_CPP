@@ -1,10 +1,8 @@
-/*
-    Este ficheiro trata da encriptação e decriptação dos nomes dos colaboradores,
-    utilizando a cifra de César com uma chave fixa.
-*/
-
+//===================================================================================
+// Ficheiro: cifre.cpp
+// Objetivo: Implementação da Cifra de César para encriptação e desencriptação de texto
+//===================================================================================
 #include "cifra.h"
-#include <cctype>
 
 //Chave constante para a cifra de César
 static const int CHAVE = 23;

@@ -5,6 +5,8 @@
 #include <string>
 #include <iostream>
 #include "../models/colaborador.h"
+#include "../models/calendario.h"
+#include <limits>
 
 void mostrarMenu();
 void mostrarMenuNotas(const Colaborador& colaborador);

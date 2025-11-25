@@ -6,6 +6,10 @@
 #include "colaborador.h"
 #include "relatorio.h"
 #include "estatisticas.h"
+#include "cifra.h"
+#include <fstream>
+#include <sstream>
+#include "colaborador.h"
 
 bool guardarCSV(const std::vector<Colaborador>& listaColaboradores);
 bool carregarCSV(std::vector<Colaborador>& listaColaboradores);

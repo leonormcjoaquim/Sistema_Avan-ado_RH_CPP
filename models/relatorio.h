@@ -2,6 +2,8 @@
 #define RELATORIO_H
 
 #include <vector>
+#include <iostream>
+#include <fstream>
 #include "colaborador.h"
 
 void contarMarcacoesMes(const Colaborador& c, int mes, int ano, int& ferias, int& faltas);

@@ -4,6 +4,8 @@
 #include <vector>
 #include <string>
 #include "colaborador.h"
+#include <iostream>
+#include <fstream>
 
 struct Departamento {
     std::string departamento;

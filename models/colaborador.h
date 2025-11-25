@@ -1,3 +1,8 @@
+//===================================================================================
+// Ficheiro: colaborador.h
+// Objetivo: Guardar as estruturas relacionadas com colaboradores
+//===================================================================================
+
 #ifndef COLABORADOR_H
 #define COLABORADOR_H
 

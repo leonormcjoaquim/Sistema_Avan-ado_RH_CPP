@@ -1,6 +1,9 @@
+//===================================================================================
+// Ficheiro: estatisticas.cpp
+// Objetivo: Implementação de estatísticas por departamento com totais de férias e faltas
+// e indicação do departamento com mais ausências.
+//===================================================================================
 #include "estatisticas.h"
-#include <iostream>
-#include <fstream>
 
 // Procura índice de departamento
 int procurarDepartamento(const std::vector<Departamento> &departamento, const std::string &dep)
@@ -12,7 +15,6 @@ int procurarDepartamento(const std::vector<Departamento> &departamento, const st
             return i;
         }
     }
-
     return -1;
 }
 

@@ -1,10 +1,8 @@
+//===================================================================================
+// Ficheiro: formacoes.cpp
+// Objetivo: Implementação das funções para listar, adicionar, editar e remover formações
+//===================================================================================
 #include "formacoes.h"
-#include "../models/calendario.h"
-#include "../views/io.h"
-#include "cifra.h"
-#include <fstream>
-#include <sstream>
-#include <iostream>
 
 void listarFormacoes(const Colaborador &c)
 {

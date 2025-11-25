@@ -1,6 +1,11 @@
+//===================================================================================
+// Ficheiro: dashboard.cpp
+// Objetivo: Implementação da função de dashboard resumido no ecrã e em CSV com uma 
+// constante de dias de férias anuais de 22 dias. Imprime depois no ecrã ou em CSV
+// os totais de férias, faltas e restantes para cada colaborador.
+//===================================================================================
 #include "dashboard.h"
-#include <iostream>
-#include <fstream>
+
 
 static const int DIAS_FERIAS_ANO = 22;
 

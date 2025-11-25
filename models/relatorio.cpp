@@ -1,6 +1,8 @@
+//===================================================================================
+// Ficheiro: relatorio.cpp
+// Objetivo: Implementação das funções para gerar relatórios mensais de férias e faltas
+//===================================================================================
 #include "relatorio.h"
-#include <iostream>
-#include <fstream>
 
 // Contar numeros de F e X num mês
 void contarMarcacoesMes(const Colaborador& c, int mes, int ano, int& ferias, int& faltas)
