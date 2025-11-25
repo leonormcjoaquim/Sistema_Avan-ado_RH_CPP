@@ -11,6 +11,6 @@ void menuAdicionarColaborador(std::vector<Colaborador>& lista)
     if (adicionarColaborador(lista, nome))
         std::cout << "Colaborador adicionado com sucesso!\n";
     else
-        std::cout << "Já existe colaborador com esse nome.\n";
+        std::cout << "Ja existe colaborador com esse nome.\n";
     pausarEcra();
 }
