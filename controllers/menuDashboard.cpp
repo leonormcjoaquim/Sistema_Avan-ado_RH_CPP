@@ -1,3 +1,8 @@
+//===================================================================================
+// Ficheiro: menuDashboard.cpp
+// Objetivo: Implementação do submenu do dashboard
+//===================================================================================
+
 #include "menuDashboard.h"
 
 void menuDashboard(const std::vector<Colaborador>& lista)

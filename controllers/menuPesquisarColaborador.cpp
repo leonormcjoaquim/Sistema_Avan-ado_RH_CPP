@@ -1,3 +1,8 @@
+//===================================================================================
+// Ficheiro: menuPesquisarColaborador.cpp
+// Objetivo: Implementação do menu para pesquisar um colaborador por ID ou nome
+//===================================================================================
+
 #include "menuPesquisarColaborador.h"
 
 void menuPesquisarColaborador(std::vector<Colaborador>& lista)

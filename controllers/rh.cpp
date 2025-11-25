@@ -1,3 +1,9 @@
+//===================================================================================
+// Ficheiro: rh.cpp
+// Objetivo: Implementação das funções principais de recursos humanos para criar e
+// gerir colaboradores, marcações e ficheiros CSV
+//===================================================================================
+
 #include "rh.h"
 
 // Carregar tudo a partir dos CSV separados

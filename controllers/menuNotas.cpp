@@ -1,3 +1,7 @@
+//===================================================================================
+// Ficheiro: menuNotas.cpp
+// Objetivo: Implementação do submenu de notas para CRUD de notas
+//===================================================================================
 #include "menuNotas.h"
 
 void menuNotas(std::vector<Colaborador>& lista)

@@ -1,3 +1,7 @@
+//===================================================================================
+// Ficheiro: menuAdicionarColaborador.cpp
+// Objetivo: Implementação do menu para adicionar um colaborador
+//===================================================================================
 #include "menuAdicionarColaborador.h"
 
 void menuAdicionarColaborador(std::vector<Colaborador>& lista)

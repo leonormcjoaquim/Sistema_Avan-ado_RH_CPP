@@ -1,3 +1,8 @@
+//===================================================================================
+// Ficheiro: menuFormacoes.cpp
+// Objetivo: Implementação do submenu de formações
+//===================================================================================
+
 #include "menuFormacoes.h"
 
 void menuFormacoes(std::vector<Colaborador>& lista)

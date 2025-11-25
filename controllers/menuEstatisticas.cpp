@@ -1,4 +1,7 @@
-
+//===================================================================================
+// Ficheiro: menuEstatisticas.cpp
+// Objetivo: Implementação do submenu de estatísticas
+//===================================================================================
 
 #include "menuEstatisticas.h"
 

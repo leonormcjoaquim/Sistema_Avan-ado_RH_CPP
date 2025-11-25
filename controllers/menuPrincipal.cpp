@@ -1,3 +1,8 @@
+//===================================================================================
+// Ficheiro: menuPrincipal.cpp
+// Objetivo: Implementação do menu principal do sistema
+//===================================================================================
+
 #include "menuPrincipal.h"
 
 void menuPrincipal(std::vector<Colaborador> &listaColaboradores)

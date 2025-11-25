@@ -1,3 +1,8 @@
+//===================================================================================
+// Ficheiro: menuMarcarDia.cpp
+// Objetivo: Implementação das funções de menu para marcar e desmarcar dias
+//===================================================================================
+
 #include "menuMarcarDia.h"
 
 void menuMarcarDia(std::vector<Colaborador>& lista)
@@ -10,7 +15,7 @@ void menuMarcarDia(std::vector<Colaborador>& lista)
     std::cin.ignore();
 
     marcarDia(lista, nome, d, m, a, tipo);
-    std::cout << "Marcação registada.\n";
+    std::cout << "Marcacao registada.\n";
 
     pausarEcra();
 }
@@ -24,7 +29,7 @@ void menuDesmarcarDia(std::vector<Colaborador>& lista)
     std::cin.ignore();
 
     desmarcarDia(lista, nome, d, m, a);
-    std::cout << "Desmarcação registada.\n";
+    std::cout << "Desmarcacao registada.\n";
 
     pausarEcra();
 }

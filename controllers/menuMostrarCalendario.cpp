@@ -1,5 +1,9 @@
-#include "menuMostrarCalendario.h"
+//===================================================================================
+// Ficheiro: menuMostrarCalendario.cpp
+// Objetivo: Implementação da função para mostrar o calendário de um colaborador
+//===================================================================================
 
+#include "menuMostrarCalendario.h"
 
 void menuMostrarCalendario(std::vector<Colaborador>& lista)
 {
@@ -12,7 +16,7 @@ void menuMostrarCalendario(std::vector<Colaborador>& lista)
 
     if (!c)
     {
-        std::cout << "Colaborador não encontrado!\n";
+        std::cout << "Colaborador nao encontrado!\n";
         pausarEcra();
         return;
     }

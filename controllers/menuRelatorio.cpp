@@ -1,3 +1,8 @@
+//===================================================================================
+// Ficheiro: menuRelatorio.cpp
+// Objetivo: Implementação do submenu de relatórios para visualização ou exportação
+//===================================================================================
+
 #include "menuRelatorio.h"
 
 void menuRelatorios(const std::vector<Colaborador>& lista)
