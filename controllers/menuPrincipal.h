@@ -22,8 +22,8 @@
 #include <vector>
 #include "rh.h"
 #include <iostream>
+#include <limits>
 
-#include "rh.h"
 void menuPrincipal(std::vector<Colaborador>& listaColaboradores);
 
 #endif

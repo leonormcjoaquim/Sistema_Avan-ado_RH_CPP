@@ -14,8 +14,19 @@ void menuPrincipal(std::vector<Colaborador> &listaColaboradores)
         limparEcra();
         mostrarMenu();
 
-        std::cin >> opcao;
-        std::cin.ignore();
+         while (true)
+        {
+            std::cin >> opcao;
+
+            if (!std::cin.fail())
+            {
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                break;
+            }
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cout << "Introduza apenas numeros\n";
+        }
 
         switch (opcao)
         {
