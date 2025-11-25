@@ -96,27 +96,51 @@ std::string lerNomeColaborador()
 int lerDia()
 {
     int d;
-    std::cout << "Dia: ";
-    std::cin >> d;
-    return d;
+    while (true) {
+        std::cout << "Dia: ";
+        std::cin >> d;
+
+        if (!std::cin.fail())
+            return d;
+
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        std::cout << "Introduz apenas numeros.\n";
+    }
 }
 
 // Pede o mês
 int lerMes()
 {
     int m;
-    std::cout << "Mes: ";
-    std::cin >> m;
-    return m;
+    while (true) {
+        std::cout << "Mes: ";
+        std::cin >> m;
+
+        if (!std::cin.fail())
+            return m;
+
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        std::cout << "Introduz apenas numeros.\n";
+    }
 }
 
 // Pede o ano
 int lerAno()
 {
     int a;
-    std::cout << "Ano: ";
-    std::cin >> a;
-    return a;
+    while (true) {
+        std::cout << "Ano: ";
+        std::cin >> a;
+
+        if (!std::cin.fail())
+            return a;
+
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        std::cout << "Introduz apenas numeros.\n";
+    }
 }
 
 // Pede o tipo de marcação, transforma em uppercase para guardar no ficheiro e ficar consistente
