@@ -1,7 +1,5 @@
 #include "menuMostrarCalendario.h"
-#include "../views/io.h"
-#include "../models/calendario.h"
-#include <iostream>
+
 
 void menuMostrarCalendario(std::vector<Colaborador>& lista)
 {

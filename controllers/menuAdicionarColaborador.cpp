@@ -1,7 +1,4 @@
 #include "menuAdicionarColaborador.h"
-#include "../views/io.h"
-#include "../controllers/rh.h"
-#include <iostream>
 
 void menuAdicionarColaborador(std::vector<Colaborador>& lista)
 {

@@ -1,13 +1,4 @@
 #include "menuPrincipal.h"
-#include "rh.h"
-#include "../views/io.h"
-#include "../models/notas.h"
-#include "../models/formacoes.h"
-#include "../models/calendario.h"
-#include "../models/relatorio.h"
-#include "../models/estatisticas.h"
-#include "../models/dashboard.h"
-#include <iostream>
 
 void menuPrincipal(std::vector<Colaborador> &listaColaboradores)
 {

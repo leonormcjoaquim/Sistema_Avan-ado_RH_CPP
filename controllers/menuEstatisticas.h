@@ -3,6 +3,9 @@
 
 #include <vector>
 #include "../models/colaborador.h"
+#include "../models/estatisticas.h"
+#include "../views/io.h"
+#include <iostream>
 
 void menuEstatisticas(const std::vector<Colaborador>& lista);
 

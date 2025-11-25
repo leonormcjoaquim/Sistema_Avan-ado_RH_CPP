@@ -1,7 +1,4 @@
 #include "menuDashboard.h"
-#include "../models/dashboard.h"
-#include "../views/io.h"
-#include <iostream>
 
 void menuDashboard(const std::vector<Colaborador>& lista)
 {

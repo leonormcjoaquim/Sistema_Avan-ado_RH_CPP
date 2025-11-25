@@ -1,7 +1,4 @@
 #include "menuMarcarDia.h"
-#include "../views/io.h"
-#include "../models/calendario.h"
-#include <iostream>
 
 void menuMarcarDia(std::vector<Colaborador>& lista)
 {

@@ -1,13 +1,4 @@
 #include "rh.h"
-#include "../models/colaborador.h"
-#include "../models/calendario.h"
-#include "../models/notas.h"
-#include "../models/ficheiro.h"
-#include "../models/formacoes.h"
-
-#include <string>
-#include <vector>
-#include <iostream>
 
 // Carregar tudo a partir dos CSV separados
 void carregarTudo(std::vector<Colaborador> &lista)

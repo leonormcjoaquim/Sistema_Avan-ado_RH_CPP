@@ -4,6 +4,14 @@
 #include <vector>
 #include <string>
 #include "../models/colaborador.h"
+#include "../models/colaborador.h"
+#include "../models/calendario.h"
+#include "../models/notas.h"
+#include "../models/ficheiro.h"
+#include "../models/formacoes.h"
+#include <string>
+#include <vector>
+#include <iostream>
 
 // Carregar e Guardar todos CSVS
 void carregarTudo(std::vector<Colaborador>& lista);

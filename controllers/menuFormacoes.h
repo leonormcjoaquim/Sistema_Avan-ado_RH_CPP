@@ -3,6 +3,10 @@
 
 #include <vector>
 #include "../models/colaborador.h"
+#include "../views/io.h"
+#include "../models/formacoes.h"
+#include <iostream>
+#include "rh.h"
 
 void menuFormacoes(std::vector<Colaborador>& lista);
 
