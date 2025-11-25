@@ -74,7 +74,7 @@ void estatisticasDepartamentos(const std::vector<Colaborador> &lista)
 
         std::cout << departamento[i].departamento;
 
-        int espacos = 25 - departamento[i].departamento.size();
+        int espacos = 29 - departamento[i].departamento.size();
         if (espacos < 1)
         {
             espacos = 1;

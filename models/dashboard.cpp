@@ -25,7 +25,7 @@ void contarTotaisAno(const Colaborador& colaborador, int& ferias, int& faltas)
 void dashboardResumido(const std::vector<Colaborador>& listaColaboradores)
 {
     std::cout << "\n================ DASHBOARD RESUMIDO ================\n";
-    std::cout << "Nome                 Férias   Faltas   Restantes\n";
+    std::cout << "Nome                 Ferias   Faltas   Restantes\n";
     std::cout << "---------------------------------------------------\n";
 
     for (size_t i = 0; i < listaColaboradores.size(); i++)
@@ -40,7 +40,7 @@ void dashboardResumido(const std::vector<Colaborador>& listaColaboradores)
 
         std::cout << listaColaboradores[i].nome;
 
-        int espacos = 20 - listaColaboradores[i].nome.size();
+        int espacos = 25 - listaColaboradores[i].nome.size();
         if (espacos < 1) 
             espacos = 1;
         for (int e = 0; e < espacos; e++) std::cout << " ";

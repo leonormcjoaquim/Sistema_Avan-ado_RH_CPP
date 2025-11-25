@@ -45,7 +45,7 @@ if (tipo == 'F' && isConflitoFerias(listaColaboradores, colaborador, data)){
 Para mostrar o calendario atual no procurar Colaborador utilizei a biblioteca chrono para ir buscar informação ao sistema
 
 ```cpp
-auto agora = std::chrono::system_clock::now();
+    auto agora = std::chrono::system_clock::now();
     std::time_t t = std::chrono::system_clock::to_time_t(agora);
     std::tm* data = std::localtime(&t);
 
@@ -89,16 +89,16 @@ Correr o programa com duplo clique no executável
 Leonor_Joaquim_RH_Avancado
 ├─ colaboradores.csv                                                # Ficheiro com Colaboradores
 ├─ controllers                                                      # Controladores (Menus e RH)
-│  ├─ menuAdicionarColaborador.cpp / menuAdicionarColaborador.h
-│  ├─ menuDashboard.cpp / menuDashboard.h
-│  ├─ menuEstatisticas.cpp / menuEstatisticas.h
-│  ├─ menuFormacoes.cpp / menuFormacoes.h
-│  ├─ menuMarcarDia.cpp / menuMarcarDia.h
-│  ├─ menuMostrarCalendario.cpp / menuMostrarCalendario.h
-│  ├─ menuNotas.cpp / menuNotas.h
-│  ├─ menuPesquisarColaborador.cpp / menuPesquisarColaborador.h
-│  ├─ menuPrincipal.cpp / menuPrincipal.h
-│  ├─ menuRelatorio.cpp /menuRelatorio.h
+│  ├─ menuAdicionarColaborador.cpp / menuAdicionarColaborador.h     # menu switch para adicionarColaborador
+│  ├─ menuDashboard.cpp / menuDashboard.h                           # menu switch do Dashboard
+│  ├─ menuEstatisticas.cpp / menuEstatisticas.h                     # menu switch para as Estatisticas
+│  ├─ menuFormacoes.cpp / menuFormacoes.h                           # menu switch para as Formações
+│  ├─ menuMarcarDia.cpp / menuMarcarDia.h                           # menu switch para marcações ou desmarcações
+│  ├─ menuMostrarCalendario.cpp / menuMostrarCalendario.h           # menu switch para imprimir Calendario de um Colaborador
+│  ├─ menuNotas.cpp / menuNotas.h                                   # menu switch para as Formações
+│  ├─ menuPesquisarColaborador.cpp / menuPesquisarColaborador.h     # menu switch para pesquisar colaborador por id ou nome
+│  ├─ menuPrincipal.cpp / menuPrincipal.h                           # menu switch principal
+│  ├─ menuRelatorio.cpp /menuRelatorio.h                            # Funções do RH
 │  └─ rh.h / rh.cpp                                                 # Lógica de gestão de colaboradores
 ├─ formacoes.csv                                                    # Ficheiro com formacoes dos colaboradores
 ├─ imagens_ReadMe

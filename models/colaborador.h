@@ -22,7 +22,7 @@ struct Formacao {
     std::string data_conclusao;
 };
 
-//Estrutura para guardar colaboradores e um array das marcações
+//Estrutura para guardar colaboradores e um array das marcações, notas e formações
 struct Colaborador {
     int id;
     std::string nome;
